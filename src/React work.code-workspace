@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../react-projects-master"
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"birthdayproject",
+			"Nabiameen",
+			"propsdrilling",
+			"Salman"
+		],
+		"liveServer.settings.multiRootWorkspaceName": "React work"
+	}
+}
