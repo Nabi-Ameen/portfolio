@@ -34,13 +34,13 @@ const Home = () => {
 
                     <div className='space-x-0 md:space-x-4 space-y-4 md:space-y-0'>
                         <button className='ring-1 bg-blue-600 px-4 py-2 rounded-sm hover:bg-blue-500 text-white font-medium w-full md:w-auto'>
-                            <a href="#" className='flex items-center space-x-3'>
+                            <a href="https://github.com/Nabi-Barki" target="_blank" className='flex items-center space-x-3'>
                                 <i className='text-2xl '><BsGithub /></i>
                                 <p>View on Github</p>
                             </a>
                         </button>
                         <button className='ring-1 bg-blue-600 px-4 py-2 rounded-sm hover:bg-blue-500 text-white font-medium w-full md:w-auto'>
-                            <a href="#" className='flex items-center space-x-3'>
+                            <a href="https://www.linkedin.com/in/nabi-ameen-394baa168/" target="_blank" className='flex items-center space-x-3'>
                                 <i className='text-2xl '><BsLinkedin /></i>
                                 <p>View on LinkedIn</p>
                             </a>
@@ -60,11 +60,7 @@ const Home = () => {
                 <div className='text-center lg:text-left'>
                     <h1 className='text-xl md:text-2xl lg:text-4xl font-semibold underline decoration-4 decoration-blue-300 underline-offset-[10px]'>About Me 👨</h1>
                     <p className='pt-4 text-gray-600 text-sm lg:text-lg'>
-                        I am a Computer Scientist who just completed post-graduation from the premier IT university <strong>Abasyn</strong> University Peshawar in Computer Science Majors. I am a highly skilled professional <strong>front-end-web developer</strong> who loves to take on the challenges and then solve them.I am an enthusiastic and passionate front-end web developer. my main
-                        specialization is doing Web Development. I pursue perfection in my
-                        projects. I put dedication in every project that I do. And I hope my
-                        dedication will help me to explore my expertise, and to boost up
-                        my career plan.
+                        I am a Computer Scientist who just completed post-graduation from the premier IT university Abasyn University Peshawar in Computer Science Majors. I am a highly skilled professional front-end web developer who loves to take on challenges and then solve them. I am an enthusiastic and passionate front-end web developer. my main specialization is doing Web Development. I pursue perfection in my projects. I put dedication into every project that I do. And I hope my dedication will help me to explore my expertise, and to boost my career plan.
                     </p>
                 </div>
             </section>
@@ -106,7 +102,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='py-10 border-b-2' id='Projects'>
+            <section className='py-8 border-b-2' id='Projects'>
                 <div className='text-center'>
                     <h1 className='text-xl md:text-2xl lg:text-4xl font-semibold underline decoration-4 decoration-blue-300 underline-offset-[10px]'>Projects 💻</h1>
                 </div>
@@ -372,7 +368,7 @@ const Home = () => {
                         </div>
                     </Link>
 
-                    <Link to="cocktail">
+                    <a href="https://github.com/Nabi-Barki/cocktailproject" target="-blank">
                         <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
                             <div className='w-full h-48 overflow-hidden'>
                                 <img src="./images/cocktail.png" alt="cocktail" />
@@ -406,7 +402,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </Link>
+                    </a>
 
                     <Link to="tabs">
                         <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
@@ -528,49 +524,48 @@ const Home = () => {
                     <h1 className='text-xl md:text-2xl lg:text-4xl font-semibold underline decoration-4 decoration-blue-300 underline-offset-[10px]'>Contact Me 📱</h1>
                 </div>
 
-                <div className='grid lg:grid-cols-2 gap-6 py-12'>
-                    <form ref={form} onSubmit={sendEmail} className='flex flex-col space-y-4 p-6 shadow-[0px_3px_15px_rgba(0,0,0,0.2)]'>
-                        <input required type="text" name='name' placeholder='Enter name' className='rounded-sm' />
-                        <input required type="email" name='user-email' placeholder='Enter email' className='rounded-sm' />
-                        <textarea required name='message' cols="30" rows="8" placeholder='Enter text' className='rounded-sm'></textarea>
-                        <button className='bg-blue-600 py-2 text-white rounded-sm'>Send Email</button>
-                    </form>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 py-12'>
+                    <div>
+                        <form ref={form} onSubmit={sendEmail} className='flex flex-col space-y-4 p-6 shadow-[0px_3px_15px_rgba(0,0,0,0.2)]'>
+                            <input required type="text" name='name' placeholder='Enter name' className='rounded-sm' />
+                            <input required type="email" name='user-email' placeholder='Enter email' className='rounded-sm' />
+                            <textarea required name='message' cols="30" rows="8" placeholder='Enter text' className='rounded-sm'></textarea>
+                            <button className='bg-blue-600 py-2 text-white rounded-sm'>Send Email</button>
+                        </form>
+                    </div>
                     <div className='grid md:grid-cols-2 gap-6 p-6 shadow-[0px_3px_15px_rgba(0,0,0,0.2)]'>
 
                         <div className='flex space-y-1 p-2 flex-col items-center justify-center '>
-                            <div className='w-20 h-20 flex items-center justify-center rounded-full bg-blue-600'>
-                                <FaPhone className='text-3xl text-white' />
+                            <div className='w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-blue-600'>
+                                <FaPhone className='text-xl md:text-3xl text-white' />
                             </div>
-                            <h3 className='text-lg text-gray-600'>+092 3169248140</h3>
+                            <h3 className='text-sm md:text-lg text-gray-600'>+092 3169248140</h3>
                         </div>
 
                         <div className='flex space-y-2 p-2 flex-col items-center justify-center '>
-                            <div className='w-20 h-20 flex items-center justify-center rounded-full bg-blue-600'>
-                                <MdEmail className='text-3xl text-white' />
+                            <div className='w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-blue-600'>
+                                <MdEmail className='text-xl md:text-3xl text-white' />
                             </div>
-                            <h3 className='text-lg text-gray-600'>nabiameen35126@gmail.com</h3>
+                            <h3 className='text-sm md:text-lg text-gray-600'>nabiameen35126@gmail.com</h3>
                         </div>
 
                         <div className='flex flex-col items-center justify-center '>
-                            <div className='w-20 h-20 flex items-center justify-center rounded-full bg-blue-600'>
-                                <BsLinkedin className='text-3xl text-white' />
+                            <div className='w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-blue-600'>
+                                <BsLinkedin className='text-xl md:text-3xl text-white' />
                             </div>
+                                <h3 className='text-sm md:text-lg text-gray-600'>Nabi Ameen</h3>
                         </div>
                         <div className='flex flex-col items-center justify-center '>
-                            <div className='w-20 h-20 flex items-center justify-center rounded-full bg-blue-600'>
-                                <MdOutlineLocationOn className='text-3xl text-white' />
+                            <div className='w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-blue-600'>
+                                <MdOutlineLocationOn className='text-xl md:text-3xl text-white' />
                             </div>
-                            <h3 className='text-lg text-gray-600'>Peshawar, Pakistan</h3>
+                            <h3 className='text-sm md:text-lg text-gray-600'>Peshawar, Pakistan</h3>
                         </div>
                     </div>
                 </div>
 
 
             </section>
-
-
-
-
         </div>
     )
 }

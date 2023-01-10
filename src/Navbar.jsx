@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
     return (
-        <nav className='bg-gray-100 sticky top-0 left-0 right-0 z-30'>
+        <nav className='bg-gray-100 sticky top-0 left-0 right-0 z-30 w-full'>
             <div className='px-6 md:px-10 lg:px-24 lg:flex items-center justify-between shadow-md'>
                 <div>
                     <div className='flex justify-between py-4'>
