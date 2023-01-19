@@ -107,97 +107,117 @@ const Home = () => {
                     <h1 className='text-xl md:text-2xl lg:text-4xl font-semibold underline decoration-4 decoration-blue-300 underline-offset-[10px]'>Projects 💻</h1>
                 </div>
 
-                <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6 py-16'>
-                    <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 cursor-pointer'>
-                        <img src="./images/usereducer.png" alt="usereducer" />
-                        <div className='pt-2 w-full'>
-                            <h3 className='text-xl font-semibold text-gray-600'>shoping-cart app</h3>
-                            <p className='py-4 text-[16px] text-gray-500'>A UI For shoping-cart app created using html css tailwindcss javascript and ReactJS using redux-toolkit</p>
+                <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-4 py-16'>
+
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/addtocart.png" alt="" />
                         </div>
-                        <div className='flex justify-between py-1'>
-                            <a href='https://add-to-cart-using-redux-toolkit.netlify.app' target="_blank" className='btn'>Live Demo</a>
-                            <a href='https://github.com/Nabi-Barki/Add-to-Cart-using-redux' target="_blank" className='btn'>Source code</a>
-                        </div>
-                        <hr />
-                        <div className='grid grid-cols-6 gap-2 pt-6'>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="html" animation="duration-500 ">
-                                    <img src="./images/html.png" alt="png" />
-                                </Tooltip>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">shoping-cart app</h5>
+                            <div className='h-36 overflow-hidden'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For shoping-cart app created using html css tailwindcss javascript and ReactJS using redux-toolkit.</p>
                             </div>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="tailwindcss" animation="duration-500 ">
-                                    <img src="./images/tailwind.png" alt="png" />
-                                </Tooltip >
+                            <div className='flex justify-between'>
+                                <a href="https://add-to-cart-using-redux-toolkit.netlify.app/" target="_blank" className="px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/Nabi-Barki/Add-to-Cart-using-redux/" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    Source Code
+                                </a>
                             </div>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="javascript" animation="duration-500 ">
-                                    <img src="./images/js.png" alt="png" />
-                                </Tooltip >
-                            </div>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="reactjs" animation="duration-500 ">
-                                    <img src="./images/reactjs.png" alt="png" />
-                                </Tooltip >
-                            </div>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="redux-toolkit" animation="duration-500 ">
-                                    <img src="./images/redux.png" alt="png" />
-                                </Tooltip >
+                            <div className='grid grid-cols-6 gap-2 pt-6'>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="html" animation="duration-500 ">
+                                        <img src="./images/html.png" alt="png" />
+                                    </Tooltip>
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="tailwindcss" animation="duration-500 ">
+                                        <img src="./images/tailwind.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="javascript" animation="duration-500 ">
+                                        <img src="./images/js.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="reactjs" animation="duration-500 ">
+                                        <img src="./images/reactjs.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="redux-toolkit" animation="duration-500 ">
+                                        <img src="./images/redux.png" alt="png" />
+                                    </Tooltip >
+                                </div>
                             </div>
                         </div>
                     </div>
 
-
-                    <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 cursor-pointer'>
-                        <img src="./images/cocktail.png" alt="cocktail" />
-                        <div className='pt-12'>
-                            <h3 className='text-xl font-semibold'>cocktail app</h3>
-                            <p className='py-4 text-[16px] text-gray-500'>A UI For cocktail app created using html css tailwindcss javascript and ReactJS using context api and custom hooks</p>
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/cocktail.png" alt="" />
                         </div>
-                        <div className='flex justify-between py-1'>
-                            <a href='' target="_blank" className='btn'>Live Demo</a>
-                            <a href='' target="_blank" className='btn'>Source code</a>
-                        </div>
-
-                        <hr />
-                        <div className='grid grid-cols-6 gap-2 pt-6'>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="html" animation="duration-500 ">
-                                    <img src="./images/html.png" alt="png" />
-                                </Tooltip>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">cocktail app</h5>
+                            <div className='h-36 overflow-hidden'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For cocktail app created using html css tailwindcss javascript and ReactJS using context api and custom hooks</p>
                             </div>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="tailwindcss" animation="duration-500 ">
-                                    <img src="./images/tailwind.png" alt="png" />
-                                </Tooltip >
+                            <div className='flex justify-between'>
+                                <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    Source Code
+                                </a>
                             </div>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="javascript" animation="duration-500 ">
-                                    <img src="./images/js.png" alt="png" />
-                                </Tooltip >
-                            </div>
-                            <div className='border-[1px] p-2'>
-                                <Tooltip content="reactjs" animation="duration-500 ">
-                                    <img src="./images/reactjs.png" alt="png" />
-                                </Tooltip >
+                            <div className='grid grid-cols-6 gap-2 pt-6'>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="html" animation="duration-500 ">
+                                        <img src="./images/html.png" alt="png" />
+                                    </Tooltip>
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="tailwindcss" animation="duration-500 ">
+                                        <img src="./images/tailwind.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="javascript" animation="duration-500 ">
+                                        <img src="./images/js.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="reactjs" animation="duration-500 ">
+                                        <img src="./images/reactjs.png" alt="png" />
+                                    </Tooltip >
+                                </div>
                             </div>
                         </div>
                     </div>
 
-
-
-                    <Link to="birthday">
-                        <div className='shadow-[0px_3px_15px_rgba(0,0,0,0.2)] rounded-md p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/birthday.png" alt="birthday" className=' object-cover object-top' />
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/todoapp.png" alt="" />
+                        </div>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">todo app</h5>
+                            <div className='h-36'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For todo app created using custom hooks context API and using html css tailwindcss javascript and ReactJS</p>
                             </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>birthday app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For birthday app created using ReactJS</p>
-                            </div>
+                            <Link to="todoapp">
+                                <div className='flex justify-between'>
+                                    <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </Link>
 
-                            <hr />
+                            {/* <a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Source Code
+                                    </a>*/}
                             <div className='grid grid-cols-6 gap-2 pt-6'>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="html" animation="duration-500 ">
@@ -221,20 +241,30 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </Link>
+                    </div>
 
-                    <Link to="todoapp">
-                        <div className='grid grid-flow-row rounded-md shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/todoapp.png" alt="todoapp" />
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/accordian.png" alt="" />
+                        </div>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">accordian app</h5>
+
+                            <div className='h-36'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For accordian app created using html css tailwindcss javascript and ReactJS</p>
                             </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>todo app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For todo app created using custom hooks context API and using html css tailwindcss javascript and ReactJS</p>
-                            </div>
+                            <Link to="accordian">
+                                <div className='flex justify-between'>
+                                    <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </Link>
+                            {/*<a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Source Code
+                                    </a>*/}
 
 
-                            <hr />
                             <div className='grid grid-cols-6 gap-2 pt-6'>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="html" animation="duration-500 ">
@@ -258,20 +288,27 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </Link>
+                    </div>
 
-                    <Link to="accordian">
-                        <div className='grid grid-flow-row rounded-md shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/accordian.png" alt="accordian" />
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/ourmenu.png" alt="" />
+                        </div>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-4 text-xl font-bold tracking-tight text-gray-900 dark:text-white">accordian app</h5>
+                            <div className='h-36'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For menu app created using html css tailwindcss javascript and ReactJS</p>
                             </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>accordian app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For accordian app created using html css tailwindcss javascript and ReactJS</p>
-                            </div>
-
-                            <hr />
+                            <Link to="menu">
+                                <div className='flex justify-between'>
+                                    <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </Link>
+                            {/* <a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Source Code
+                                    </a>*/}
                             <div className='grid grid-cols-6 gap-2 pt-6'>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="html" animation="duration-500 ">
@@ -295,60 +332,27 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </Link>
+                    </div>
 
-                    <Link to="menu">
-                        <div className='grid grid-flow-row rounded-md shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/ourmenu.png" alt="ourmenu" />
-                            </div>
-                            <div className='w-full h-48'>
-                                <h3 className='text-xl pt-4 font-semibold'>menu app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For menu app created using html css tailwindcss javascript and ReactJS</p>
-                            </div>
-
-                            <hr />
-                            <div className='grid grid-cols-6 gap-2 pt-6'>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="html" animation="duration-500 ">
-                                        <img src="./images/html.png" alt="png" />
-                                    </Tooltip>
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="javascript" animation="duration-500 ">
-                                        <img src="./images/js.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="reactjs" animation="duration-500 ">
-                                        <img src="./images/reactjs.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="using api" animation="duration-500 ">
-                                        <img src="./images/api.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                            </div>
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/ourreviews.png" alt="" />
                         </div>
-                    </Link>
-
-                    <Link to="reviews">
-                        <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/ourreviews.png" alt="reviews" />
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-4 text-xl font-bold tracking-tight text-gray-900 dark:text-white">reviews app</h5>
+                            <div className='h-36'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For reviews app created using html css tailwindcss javascript and ReactJS</p>
                             </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>reviews app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For reviews app created using html css tailwindcss javascript and ReactJS </p>
-                            </div>
-
-                            <hr />
+                            <Link to="reviews">
+                                <div className='flex justify-between'>
+                                    <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </Link>
+                            {/* <a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Source Code
+                                    </a>*/}
                             <div className='grid grid-cols-6 gap-2 pt-6'>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="html" animation="duration-500 ">
@@ -372,19 +376,27 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </Link>
+                    </div>
 
-                    <Link to="tabs">
-                        <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/tabsproject.png" alt="tabsproject" />
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/tabsproject.png" alt="" />
+                        </div>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-4 text-xl font-bold tracking-tight text-gray-900 dark:text-white">tabsproject app</h5>
+                            <div className='h-36'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For tabsproject app created using ReactJS</p>
                             </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>tabsproject app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For tabsproject app created using ReactJS</p>
-                            </div>
-
-                            <hr />
+                            <Link to="tabs">
+                                <div className='flex justify-between'>
+                                    <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </Link>
+                            {/* <a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Source Code
+                                    </a>*/}
                             <div className='grid grid-cols-6 gap-2 pt-6'>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="html" animation="duration-500 ">
@@ -408,19 +420,26 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                    </Link>
-
-                    <Link to="tours">
-                        <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/tours.png" alt="tours" />
+                    </div>
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/tours.png" alt="" />
+                        </div>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-4 text-xl font-bold tracking-tight text-gray-900 dark:text-white">tours app</h5>
+                            <div className='h-36'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For tours app created using ReactJS</p>
                             </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>tours app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For tours app created using ReactJS</p>
-                            </div>
-
-                            <hr />
+                            <Link to="tours">
+                                <div className='flex justify-between'>
+                                    <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </Link>
+                            {/* <a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Source Code
+                                    </a>*/}
                             <div className='grid grid-cols-6 gap-2 pt-6'>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="html" animation="duration-500 ">
@@ -442,18 +461,55 @@ const Home = () => {
                                         <img src="./images/reactjs.png" alt="png" />
                                     </Tooltip >
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/birthday.png" alt="" />
+                        </div>
+                        <div className="p-5">
+                            <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">birthday app</h5>
+                            <div className='h-36 overflow-hidden'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For birthday app created using ReactJS</p>
+                            </div>
+                            <Link to="birthday">
+                                <div className='flex justify-between'>
+                                    <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </Link>
+                            {/*<a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                        Source Code
+                                    </a>*/}
+                            <div className='grid grid-cols-6 gap-2 pt-6'>
                                 <div className='border-[1px] p-2'>
-                                    <Tooltip content="using api" animation="duration-500 ">
-                                        <img src="./images/api.png" alt="png" />
+                                    <Tooltip content="html" animation="duration-500 ">
+                                        <img src="./images/html.png" alt="png" />
+                                    </Tooltip>
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="tailwindcss" animation="duration-500 ">
+                                        <img src="./images/tailwind.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="javascript" animation="duration-500 ">
+                                        <img src="./images/js.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="reactjs" animation="duration-500 ">
+                                        <img src="./images/reactjs.png" alt="png" />
                                     </Tooltip >
                                 </div>
                             </div>
                         </div>
-                    </Link>
-
-
+                    </div>
                 </div>
-            </section>
+            </section >
 
             <section className='py-8 border-b-2 ' id='contacts'>
                 <div className='text-center'>
@@ -502,7 +558,7 @@ const Home = () => {
 
 
             </section>
-        </div>
+        </div >
     )
 }
 
