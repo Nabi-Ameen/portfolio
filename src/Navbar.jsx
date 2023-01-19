@@ -19,17 +19,16 @@ const Navbar = () => {
                     <div className={` pb-3 mt-8 lg:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
                         }`}>
                         <ul className='lg:flex items-center space-y-3 lg:space-y-0 lg:space-x-3'>
-                            <li onClick={() => setNavbar(!navbar)} className='text-gray-600 hover:text-blue-600'>
+                            <li onClick={() => setNavbar(!navbar)} className='text-gray-600 hover:text-blue-600 nav'>
                                 <Link to="/">Home</Link>
                             </li>
-                            <li className='text-gray-600 hover:text-blue-600' onClick={() => setNavbar(!navbar)}> <a href="#about">About</a></li>
-                            <li className='text-gray-600 hover:text-blue-600' onClick={() => setNavbar(!navbar)}> <a href="#WhatIdo">What I do?</a></li>
-                            <li className='text-gray-600 hover:text-blue-600' onClick={() => setNavbar(!navbar)}> <a href="#Skills">Skills</a></li>
-                            <li className='text-gray-600 hover:text-blue-600' onClick={() => setNavbar(!navbar)}> <a href="#Projects">Projects</a></li>
-                            <li className='text-gray-600 hover:text-blue-600' onClick={() => setNavbar(!navbar)}> <a href="">Portfolio</a></li>
-                            <li className='text-gray-600 hover:text-blue-600' onClick={() => setNavbar(!navbar)}> <a href="#contacts">Contact</a></li>
+                            <li className='text-gray-600 hover:text-blue-700 nav' onClick={() => setNavbar(!navbar)}> <a href="#about">About</a></li>
+                            <li className='text-gray-600 hover:text-blue-700 nav' onClick={() => setNavbar(!navbar)}> <a href="#WhatIdo">What I do?</a></li>
+                            <li className='text-gray-600 hover:text-blue-700 nav' onClick={() => setNavbar(!navbar)}> <a href="#Skills">Skills</a></li>
+                            <li className='text-gray-600 hover:text-blue-700 nav' onClick={() => setNavbar(!navbar)}> <a href="#Projects">Projects</a></li>
+                            <li className='text-gray-600 hover:text-blue-700 nav' onClick={() => setNavbar(!navbar)}> <a href="#contacts">Contact</a></li>
                             <li onClick={() => setNavbar(!navbar)} className="bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-sm  text-white font-medium cursor-pointer text-center">
-                                <a href='/resume.pdf' download > Resume</a>
+                                <a href='/Nabiameen-resume.pdf' download > Resume</a>
                             </li>
                         </ul>
                     </div>

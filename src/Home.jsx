@@ -30,7 +30,7 @@ const Home = () => {
                     <h1 className='text-xl md:text-3xl lg:text-4xl font-semibold'>Hi, I'm Nabi Ameen
                         <span className='animate-pulse duration-500'>👋</span></h1>
                     <h4 className='text:md lg:text-xl font-medium pt-1'>and I am front-end- web developer</h4>
-                    <p className='py-8  text-gray-600 text-lg lg:text-xl'>A passionate front-end- web Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with <span className='font-medium'> " html, css, bootstrap, tailwind css, sass, JavaScript, Reactjs, "</span> and some other cool libraries and frameworks.</p>
+                    <p className='py-8  text-gray-600 text-lg lg:text-xl'>A passionate front-end- web Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with <span className='font-medium'> " html, css, bootstrap, tailwind css, sass, JavaScript, Reactjs and Redux-toolkit "</span> and some other cool libraries and frameworks.</p>
 
                     <div className='space-x-0 md:space-x-4 space-y-4 md:space-y-0'>
                         <button className='ring-1 bg-blue-600 px-4 py-2 rounded-sm hover:bg-blue-500 text-white font-medium w-full md:w-auto'>
@@ -108,9 +108,87 @@ const Home = () => {
                 </div>
 
                 <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-6 py-16'>
+                    <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 cursor-pointer'>
+                        <img src="./images/usereducer.png" alt="usereducer" />
+                        <div className='pt-2 w-full'>
+                            <h3 className='text-xl font-semibold text-gray-600'>shoping-cart app</h3>
+                            <p className='py-4 text-[16px] text-gray-500'>A UI For shoping-cart app created using html css tailwindcss javascript and ReactJS using redux-toolkit</p>
+                        </div>
+                        <div className='flex justify-between py-1'>
+                            <a href='https://add-to-cart-using-redux-toolkit.netlify.app' target="_blank" className='btn'>Live Demo</a>
+                            <a href='https://github.com/Nabi-Barki/Add-to-Cart-using-redux' target="_blank" className='btn'>Source code</a>
+                        </div>
+                        <hr />
+                        <div className='grid grid-cols-6 gap-2 pt-6'>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="html" animation="duration-500 ">
+                                    <img src="./images/html.png" alt="png" />
+                                </Tooltip>
+                            </div>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="tailwindcss" animation="duration-500 ">
+                                    <img src="./images/tailwind.png" alt="png" />
+                                </Tooltip >
+                            </div>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="javascript" animation="duration-500 ">
+                                    <img src="./images/js.png" alt="png" />
+                                </Tooltip >
+                            </div>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="reactjs" animation="duration-500 ">
+                                    <img src="./images/reactjs.png" alt="png" />
+                                </Tooltip >
+                            </div>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="redux-toolkit" animation="duration-500 ">
+                                    <img src="./images/redux.png" alt="png" />
+                                </Tooltip >
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 cursor-pointer'>
+                        <img src="./images/cocktail.png" alt="cocktail" />
+                        <div className='pt-12'>
+                            <h3 className='text-xl font-semibold'>cocktail app</h3>
+                            <p className='py-4 text-[16px] text-gray-500'>A UI For cocktail app created using html css tailwindcss javascript and ReactJS using context api and custom hooks</p>
+                        </div>
+                        <div className='flex justify-between py-1'>
+                            <a href='' target="_blank" className='btn'>Live Demo</a>
+                            <a href='' target="_blank" className='btn'>Source code</a>
+                        </div>
+
+                        <hr />
+                        <div className='grid grid-cols-6 gap-2 pt-6'>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="html" animation="duration-500 ">
+                                    <img src="./images/html.png" alt="png" />
+                                </Tooltip>
+                            </div>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="tailwindcss" animation="duration-500 ">
+                                    <img src="./images/tailwind.png" alt="png" />
+                                </Tooltip >
+                            </div>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="javascript" animation="duration-500 ">
+                                    <img src="./images/js.png" alt="png" />
+                                </Tooltip >
+                            </div>
+                            <div className='border-[1px] p-2'>
+                                <Tooltip content="reactjs" animation="duration-500 ">
+                                    <img src="./images/reactjs.png" alt="png" />
+                                </Tooltip >
+                            </div>
+                        </div>
+                    </div>
+
+
 
                     <Link to="birthday">
-                        <div className='shadow-[0px_3px_15px_rgba(0,0,0,0.2)] rounded-md rounded-md p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
+                        <div className='shadow-[0px_3px_15px_rgba(0,0,0,0.2)] rounded-md p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
                             <div className='w-full h-48 overflow-hidden'>
                                 <img src="./images/birthday.png" alt="birthday" className=' object-cover object-top' />
                             </div>
@@ -260,42 +338,6 @@ const Home = () => {
                         </div>
                     </Link>
 
-                    <Link to="sidebar">
-                        <div className='grid grid-flow-row rounded-md shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/sidebar.png" alt="sidebar" />
-                            </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>sidebar app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For sidebar app created using html css tailwindcss javascript and ReactJS</p>
-                            </div>
-
-                            <hr />
-                            <div className='grid grid-cols-6 gap-2 pt-6'>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="html" animation="duration-500 ">
-                                        <img src="./images/html.png" alt="png" />
-                                    </Tooltip>
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="javascript" animation="duration-500 ">
-                                        <img src="./images/js.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="reactjs" animation="duration-500 ">
-                                        <img src="./images/reactjs.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
                     <Link to="reviews">
                         <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
                             <div className='w-full h-48 overflow-hidden'>
@@ -331,78 +373,6 @@ const Home = () => {
                             </div>
                         </div>
                     </Link>
-
-                    <Link to="shopincart">
-                        <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/usereducer.png" alt="usereducer" />
-                            </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>shoping-cart app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For shoping-cart app created using html css tailwindcss javascript and ReactJS using useReducer</p>
-                            </div>
-
-                            <hr />
-                            <div className='grid grid-cols-6 gap-2 pt-6'>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="html" animation="duration-500 ">
-                                        <img src="./images/html.png" alt="png" />
-                                    </Tooltip>
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="javascript" animation="duration-500 ">
-                                        <img src="./images/js.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="reactjs" animation="duration-500 ">
-                                        <img src="./images/reactjs.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
-
-                    <a href="https://github.com/Nabi-Barki/cocktailproject" target="-blank">
-                        <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/cocktail.png" alt="cocktail" />
-                            </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>cocktail app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For cocktail app created using html css tailwindcss javascript and ReactJS using context api and custom hooks</p>
-                            </div>
-
-                            <hr />
-                            <div className='grid grid-cols-6 gap-2 pt-6'>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="html" animation="duration-500 ">
-                                        <img src="./images/html.png" alt="png" />
-                                    </Tooltip>
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="javascript" animation="duration-500 ">
-                                        <img src="./images/js.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="reactjs" animation="duration-500 ">
-                                        <img src="./images/reactjs.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                            </div>
-                        </div>
-                    </a>
 
                     <Link to="tabs">
                         <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
@@ -481,41 +451,7 @@ const Home = () => {
                         </div>
                     </Link>
 
-                    <Link to="stripe">
-                        <div className='grid grid-flow-row shadow-[0px_3px_15px_rgba(0,0,0,0.2)] p-4 transition duration-200 ease-in-out hover:scale-[105%] cursor-pointer'>
-                            <div className='w-full h-48 overflow-hidden'>
-                                <img src="./images/strapi.png" alt="strapi" />
-                            </div>
-                            <div className='pt-4 w-full h-48'>
-                                <h3 className='text-xl font-semibold'>strapi app</h3>
-                                <p className='py-4 text-[16px] text-gray-500'>A UI For strapi app created using ReactJS</p>
-                            </div>
 
-                            <hr />
-                            <div className='grid grid-cols-6 gap-2 pt-6'>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="html" animation="duration-500 ">
-                                        <img src="./images/html.png" alt="png" />
-                                    </Tooltip>
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="javascript" animation="duration-500 ">
-                                        <img src="./images/js.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                                <div className='border-[1px] p-2'>
-                                    <Tooltip content="reactjs" animation="duration-500 ">
-                                        <img src="./images/reactjs.png" alt="png" />
-                                    </Tooltip >
-                                </div>
-                            </div>
-                        </div>
-                    </Link>
                 </div>
             </section>
 
@@ -527,7 +463,7 @@ const Home = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 py-12'>
                     <div>
                         <form ref={form} onSubmit={sendEmail} className='flex flex-col space-y-4 p-6 shadow-[0px_3px_15px_rgba(0,0,0,0.2)]'>
-                            <input required type="text" name='name' placeholder='Enter name' className='rounded-sm' />
+                            <input required type="text" name='user_name' placeholder='Enter name' className='rounded-sm' />
                             <input required type="email" name='user-email' placeholder='Enter email' className='rounded-sm' />
                             <textarea required name='message' cols="30" rows="8" placeholder='Enter text' className='rounded-sm'></textarea>
                             <button className='bg-blue-600 py-2 text-white rounded-sm'>Send Email</button>
@@ -553,7 +489,7 @@ const Home = () => {
                             <div className='w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-blue-600'>
                                 <BsLinkedin className='text-xl md:text-3xl text-white' />
                             </div>
-                                <h3 className='text-sm md:text-lg text-gray-600'>Nabi Ameen</h3>
+                            <h3 className='text-sm md:text-lg text-gray-600'>Nabi Ameen</h3>
                         </div>
                         <div className='flex flex-col items-center justify-center '>
                             <div className='w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full bg-blue-600'>

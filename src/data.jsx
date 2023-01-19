@@ -86,21 +86,26 @@ export const skills = [
     },
     {
         id: 8,
+        Image: './images/redux.png',
+        text: 'redux-toolkit',
+    },
+    {
+        id: 9,
         Image: './images/figma.png',
         text: 'figma',
     },
     {
-        id: 9,
+        id: 10,
         Image: './images/illustrator.png',
         text: 'illustrator',
     },
     {
-        id: 10,
+        id: 11,
         Image: './images/photoshop.png',
         text: 'photoshop',
     },
     {
-        id: 11,
+        id: 12,
         Image: './images/flowbite.jpg',
         text: 'flowbite',
     },
