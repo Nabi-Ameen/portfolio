@@ -166,10 +166,10 @@ const Home = () => {
                                 <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For cocktail app created using html css tailwindcss javascript and ReactJS using context api and custom hooks</p>
                             </div>
                             <div className='flex justify-between'>
-                                <a href='#' className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                <a href='https://cocktail-project-using-contextapi.netlify.app/' target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
                                     Live Demo
                                 </a>
-                                <a href="https://github.com/Nabi-Barki/cocktailproject" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                <a href="https://github.com/Nabi-Barki/cocktail-project" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                     Source Code
                                 </a>
                             </div>
@@ -182,6 +182,48 @@ const Home = () => {
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
                                         <img src="./images/tailwind.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="javascript" animation="duration-500 ">
+                                        <img src="./images/js.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="reactjs" animation="duration-500 ">
+                                        <img src="./images/reactjs.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/crudapp.png" alt="" />
+                        </div>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">CRUD Api app </h5>
+                            <div className='h-36 overflow-hidden'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For crud app created using html css bootstrap javascript and ReactJS using axios library for fetching api. </p>
+                            </div>
+                            <div className='flex justify-between'>
+                                <a href='https://cocktail-project-using-contextapi.netlify.app/' target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/Nabi-Barki/CRUD-Application-using-axios" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    Source Code
+                                </a>
+                            </div>
+                            <div className='grid grid-cols-6 gap-2 pt-6'>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="html" animation="duration-500 ">
+                                        <img src="./images/html.png" alt="png" />
+                                    </Tooltip>
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="tailwindcss" animation="duration-500 ">
+                                        <img src="./images/bootstrap.png" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
