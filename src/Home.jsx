@@ -208,7 +208,7 @@ const Home = () => {
                                 <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For crud app created using html css bootstrap javascript and ReactJS using axios library for fetching api. </p>
                             </div>
                             <div className='flex justify-between'>
-                                <a href='https://cocktail-project-using-contextapi.netlify.app/' target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                <a href='https://crud-application-using-axios.vercel.app/' target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
                                     Live Demo
                                 </a>
                                 <a href="https://github.com/Nabi-Barki/CRUD-Application-using-axios" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
@@ -222,7 +222,7 @@ const Home = () => {
                                     </Tooltip>
                                 </div>
                                 <div className='border-[1px] p-2'>
-                                    <Tooltip content="tailwindcss" animation="duration-500 ">
+                                    <Tooltip content="bootstrap" animation="duration-500 ">
                                         <img src="./images/bootstrap.png" alt="png" />
                                     </Tooltip >
                                 </div>
