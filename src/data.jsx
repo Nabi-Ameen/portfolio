@@ -66,7 +66,7 @@ export const skills = [
     },
     {
         id: 4,
-        Image: './images/tailwind.png',
+        Image: './images/tailwind.jpg',
         text: 'tailwind'
     },
     {
@@ -108,5 +108,20 @@ export const skills = [
         id: 12,
         Image: './images/flowbite.jpg',
         text: 'flowbite',
+    },
+    {
+        id: 13,
+        Image: './images/git2.png',
+        text: 'git',
+    },
+    {
+        id: 14,
+        Image: './images/axios.png',
+        text: 'axios',
+    },
+    {
+        id: 15,
+        Image: './images/materialui.png',
+        text: 'material-ui',
     },
 ]

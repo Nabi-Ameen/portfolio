@@ -6,6 +6,7 @@ import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { data, skills } from './data';
 import { FaPhone } from 'react-icons/fa';
 import { MdEmail, MdOutlineLocationOn } from 'react-icons/md';
+import Typed from 'react-typed';
 
 
 const Home = () => {
@@ -29,7 +30,21 @@ const Home = () => {
                 <div className='order-last lg:order-first pt-8 text-center lg:text-left lg:pt-0'>
                     <h1 className='text-xl md:text-3xl lg:text-4xl font-semibold'>Hi, I'm Nabi Ameen
                         <span className='animate-pulse duration-500'>👋</span></h1>
-                    <h4 className='text:md lg:text-xl font-medium pt-1'>and I am front-end- web developer</h4>
+                    <div className='flex items-center text:md lg:text-2xl font-medium pt-1 text-gray-600'>
+                        <h4 className='pr-1'>and I am </h4>
+                        <Typed
+                            strings={[
+                                "Front End Web Developer.",
+                                "UI Designer.",
+                                "Reactjs Developer.",
+                                "Team Person.",
+                                "Open Source Contributor.",
+                            ]}
+                            typeSpeed={60}
+                            backSpeed={50}
+                            loop
+                        />
+                    </div>
                     <p className='py-8  text-gray-600 text-lg lg:text-xl'>A passionate front-end- web Developer 🚀 having a special interest in Frontend technologies and experience of building Web applications with <span className='font-medium'> " html, css, bootstrap, tailwind css, sass, JavaScript, Reactjs and Redux-toolkit "</span> and some other cool libraries and frameworks.</p>
 
                     <div className='space-x-0 md:space-x-4 space-y-4 md:space-y-0'>
@@ -74,7 +89,7 @@ const Home = () => {
                     {data.map((item) => {
                         const { id, icon, text } = item;
                         return (
-                            <div key={id} className="grid grid-cols-5 shadow-[0px_3px_15px_rgba(0,0,0,0.2)] place-items-center rounded-md text-gray-600 p-1 hover:bg-blue-500 hover:text-white cursor-pointer transition duration-200 ease-in-out ">
+                            <div key={id} className="grid place-items-center grid-cols-5 shadow-[0px_3px_15px_rgba(0,0,0,0.2)] place-items-center rounded-md text-gray-600 p-1 hover:bg-blue-500 hover:text-white cursor-pointer transition duration-200 ease-in-out ">
                                 <div className='text-4xl'>{icon}</div>
                                 <div className='col-span-4 text-[14px] lg:text-[16px]'>{text}</div>
                             </div>
@@ -134,7 +149,7 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
@@ -181,7 +196,49 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="javascript" animation="duration-500 ">
+                                        <img src="./images/js.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="reactjs" animation="duration-500 ">
+                                        <img src="./images/reactjs.png" alt="png" />
+                                    </Tooltip >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+                        <div className='h-40 overflow-hidden'>
+                            <img className="rounded-t-lg" src="./images/ecommersite.png" alt="" />
+                        </div>
+                        <div className="p-5">
+                            <h5 className="mb-2 pt-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">E-commerce app</h5>
+                            <div className='h-36 overflow-hidden'>
+                                <p className="mb-3 text-gray-700 dark:text-gray-400">A UI For e-commmerce app created using html css tailwindcss javascript and ReactJS using context api</p>
+                            </div>
+                            <div className='flex justify-between'>
+                                <a href='https://ecommerce-app-tan-theta.vercel.app/' target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 disable">
+                                    Live Demo
+                                </a>
+                                <a href="https://github.com/Nabi-Barki/ecommerce-app2" target="_blank" className=" px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                    Source Code
+                                </a>
+                            </div>
+                            <div className='grid grid-cols-6 gap-2 pt-6'>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="html" animation="duration-500 ">
+                                        <img src="./images/html.png" alt="png" />
+                                    </Tooltip>
+                                </div>
+                                <div className='border-[1px] p-2'>
+                                    <Tooltip content="tailwindcss" animation="duration-500 ">
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
@@ -268,7 +325,7 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
@@ -315,7 +372,7 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
@@ -359,7 +416,7 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
@@ -403,7 +460,7 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
@@ -447,7 +504,7 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
@@ -490,7 +547,7 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
@@ -534,7 +591,7 @@ const Home = () => {
                                 </div>
                                 <div className='border-[1px] p-2'>
                                     <Tooltip content="tailwindcss" animation="duration-500 ">
-                                        <img src="./images/tailwind.png" alt="png" />
+                                        <img src="./images/tailwind.jpg" alt="png" />
                                     </Tooltip >
                                 </div>
                                 <div className='border-[1px] p-2'>
